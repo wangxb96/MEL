@@ -13,20 +13,21 @@
 </div>
 
 # Contents 
-- [Framework](#Framework)
 - [Overview](#Overview)
+- [Framework](#Framework)
 - [Baselines](#Baselines)
 - [Dependencies](#Dependencies)
 - [Instructions](#Instructions)
 - [Results](#Results)
 - [Contact](#Contact)
 
-## Framework
-![model](https://github.com/wangxb96/MEL/blob/main/Figures/framework.png)
-A schematic diagram of the proposed MEL method. The parent population is divided into two subpopulations: Sub1 learns the feature importance during evolution, and its search is affected by Sub2 best. Sub2 also learns the importance of features during evolution, and searches for the optimal feature subset based on the results learned from Sub1 and Sub2. In particular, features with higher weights have a higher probability of being selected.
 
 ## Overview
 Feature selection is a crucial step in data mining to enhance model performance by reducing data dimensionality. However, the increasing dimensionality of collected data exacerbates the challenge known as the "curse of dimensionality", where computation grows exponentially with the number of dimensions. To tackle this issue, evolutionary computational (EC) approaches have gained popularity due to their simplicity and applicability. Unfortunately, the diverse designs of EC methods result in varying abilities to handle different data, often underutilizing and not sharing information effectively. In this paper, we propose a novel approach called PSO-based Multi-task Evolutionary Learning (MEL) that leverages multi-task learning to address these challenges. By incorporating information sharing between different feature selection tasks, MEL achieves enhanced learning ability and efficiency. We evaluate the effectiveness of MEL through extensive experiments on 22 high-dimensional datasets. Comparing against 24 EC approaches, our method exhibits strong competitiveness.
+
+## Framework
+![model](https://github.com/wangxb96/MEL/blob/main/Figures/framework.png)
+A schematic diagram of the proposed MEL method. The parent population is divided into two subpopulations: Sub1 learns the feature importance during evolution, and its search is affected by Sub2 best. Sub2 also learns the importance of features during evolution, and searches for the optimal feature subset based on the results learned from Sub1 and Sub2. In particular, features with higher weights have a higher probability of being selected.
 
 ## Baselines
 ![baselines](https://github.com/wangxb96/MEL/blob/main/Figures/metaheuristic.png)
