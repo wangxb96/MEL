@@ -1,4 +1,17 @@
-# MEL: Efficient Multi-Task Evolutionary Learning for High-Dimensional Feature Selection
+<div align="center">
+<h1>MEL: Efficient Multi-Task Evolutionary Learning for High-Dimensional Feature Selection</h1>
+
+[**Xubin Wang**](https://github.com/wangxb96)<sup>12</sup> · **Haojiong Shangguan**<sup>1</sup> · **Fengyi Huang**<sup>1</sup> · **Shangrui Wu**<sup>1</sup> · [**Weijia Jia**](https://scholar.google.com/citations?user=jtvFB20AAAAJ&hl=zh-CN&oi=ao)<sup>23*</sup>
+
+
+<sup>1</sup>Hong Kong Baptist University · <sup>2</sup>Beijing Normal University · <sup>3</sup>BNU-HKBU United International College  
+
+<sup>*</sup>corresponding authors
+
+[**Paper**](https://www.wangxubin.site/Paper/MEL_TKDE.pdf) · [**Code**](https://github.com/wangxb96/MEL)
+
+</div>
+
 # Contents 
 - [Framework](#Framework)
 - [Overview](#Overview)
