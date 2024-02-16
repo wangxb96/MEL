@@ -36,7 +36,7 @@ To illustrate the performance of our method, 18 evolutionary computation algorit
 Additionally, we have incorporated six evolutionary methods for feature selection published in recent four years ([SaWDE](https://github.com/wangxb96/SaWDE), [FWPSO](https://github.com/wangxb96/FWPSO), [VGS-MOEA](https://github.com/BIMK/VGS-MOEA), [MTPSO](https://github.com/SZU-AdvTech-2022/304-Evolutionary-Multitasking-for-Feature-Selection-in-High-Dimensional-Classification-via-Particle-), [PSO-EMT](https://github.com/SZU-AdvTech-2022/271-An-Evolutionary-Multitasking-based-Feature-Selection-Method-For-High-dimensional-Classification) and [DENCA](https://github.com/ehancer06/DENCA). These methods represent the cutting-edge research in the field and offer promising solutions to the challenges at hand. By incorporating these state-of-the-art evolutionary algorithms, we aim to enhance the effectiveness and robustness of our proposed framework.
 
 ## Dependencies
-- This project was developped with **MATLAB 2019b** and **MATLAB 2023b**. Early versions of MATLAB may have incompatibilities.
+- This project was developed with **MATLAB 2019b** and **MATLAB 2023b**. Early versions of MATLAB may have incompatibilities.
 
 ## Instructions
 - [MEL.m](https://github.com/wangxb96/MEL/blob/main/MEL_Methods/MEL.m) (This is the main file of the proposed model)
