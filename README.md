@@ -62,5 +62,16 @@ To reproduce our experiments, you can run **MEL.m** ten times and take the avera
 ## Results
 We evaluate the effectiveness of our method using three metrics: **accuracy**, **feature subset size**, and **algorithm running time**. Extensive experiments on 12 high-dimensional genetic datasets showed that MEL can effectively improve classification accuracy while obtaining a small feature subset. MEL also showed highly competitive running time compared to 18 state-of-the-art meta-heuristic optimization algorithms and five recently published evolutionary feature selection methods. Additionally, we provided further experiments on a separate set of 10 larger sample size datasets, comparing MEL against five representative algorithms. The results demonstrated MEL's superior overall performance in classification metrics, validating its effectiveness on high-dimensional data with both few and many samples.
 
+## Cite Our Work
+```
+@article{wang2024mel,
+  title={MEL: Efficient Multi-Task Evolutionary Learning for High-Dimensional Feature Selection},
+  author={Wang, Xubin and Shangguan, Haojiong and Huang, Fengyi and Wu, Shangrui and Jia, Weijia},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  year={2024},
+  publisher={IEEE}
+}
+```
+
 ## Contact
 wangxb19 at mails.jlu.edu.cn
