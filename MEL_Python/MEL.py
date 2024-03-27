@@ -202,7 +202,7 @@ def jMultiTaskPSO(feat, label, opts):
                 fitG = fitP[i]
         curve[t] = fitG
         fnum[t] = np.sum(Xgb > thres)
-        print(f"Iteration {t} Best (PSO)= {curve[t]}")
+        print(f"Iteration {t} Best (MEL)= {curve[t]}")
         t += 1
 
     # Select features based on selected index
