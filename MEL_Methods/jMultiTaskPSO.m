@@ -165,7 +165,7 @@ while t <= max_Iter
   end
   curve(t) = fitG; 
   fnum(t) = length(find((Xgb > thres) == 1));
-  fprintf('\nIteration %d Best (PSO)= %f',t,curve(t))
+  fprintf('\nIteration %d Best (MEL)= %f',t,curve(t))
   t = t + 1;
 end
 % save('weight.mat','weight');
