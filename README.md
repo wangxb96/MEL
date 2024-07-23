@@ -8,7 +8,7 @@
 
 <sup>*</sup>corresponding authors
 
-[**Paper**](https://www.wangxubin.site/Paper/MEL_TKDE.pdf) · [**Code**](https://github.com/wangxb96/MEL)
+[**Paper**](https://www.wangxubin.site/paper/MEL_TKDE.pdf) · [**Code**](https://github.com/wangxb96/MEL)
 
 </div>
 
